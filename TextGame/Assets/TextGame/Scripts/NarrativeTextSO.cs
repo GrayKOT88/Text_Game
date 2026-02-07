@@ -10,7 +10,7 @@ public class NarrativeTextSO : ScriptableObject
 [System.Serializable]
 public class NarrativeTextLine
 {    
-    [TextArea(3, 5)] public string text;
+    [TextArea(5, 10)] public string text;
 }
 
 [System.Serializable]
