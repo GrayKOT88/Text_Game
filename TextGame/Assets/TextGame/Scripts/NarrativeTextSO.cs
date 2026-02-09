@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Text", menuName = "NarrativeText")]
+[CreateAssetMenu(fileName = "Text", menuName = "GameText/NarrativeTextSO")]
 public class NarrativeTextSO : ScriptableObject
 {    
     public NarrativeTextLine[] lines;
