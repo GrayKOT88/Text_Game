@@ -30,7 +30,7 @@ public class MenuManager : MonoBehaviour
         {
             GameObject buttonObj = Instantiate(storyButtonPrefab, buttonContainer);
             TMP_Text buttonText = buttonObj.GetComponentInChildren<TMP_Text>();
-            Button button = buttonObj.AddComponent<Button>();
+            Button button = buttonObj.GetComponent<Button>();
 
             // Устанавливаем текст кнопки
             buttonText.text = story.storyName;

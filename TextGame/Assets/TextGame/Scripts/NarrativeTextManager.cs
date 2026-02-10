@@ -5,18 +5,16 @@ using UnityEngine.UI;
 
 public class NarrativeTextManager : MonoBehaviour
 {
-    [Header("UI References")]
+    [Header("UI Ссылки")]
     public CanvasGroup canvasGroup;    
     public TMP_Text NarrativeText;
     public Button[] choiceButtons;
 
-    public bool isNarrativeTextActive;
+    [Header("Ссылка на MenuManager")]
+    public MenuManager menuManager;    
 
     private NarrativeTextSO currentNarrativeText;
-    private int narrativeTextIndex;
-
-    private float lastNarrativeTextEndTime;
-    private float narrativeTextCooldown = 0.1f;
+    private int narrativeTextIndex;    
 
     private void Awake()
     {
@@ -26,18 +24,12 @@ public class NarrativeTextManager : MonoBehaviour
 
         foreach (var button in choiceButtons)
             button.gameObject.SetActive(false);
-    }
-
-    public bool CanStartNarrativeText()
-    {
-        return Time.unscaledTime - lastNarrativeTextEndTime >= narrativeTextCooldown;
-    }
+    }    
 
     public void StartNarrativeText(NarrativeTextSO narrativeTextSO)
     {
         currentNarrativeText = narrativeTextSO;
-        narrativeTextIndex = 0;
-        isNarrativeTextActive = true;
+        narrativeTextIndex = 0;        
         ShowNarrativeText();        
     }
 
@@ -88,7 +80,7 @@ public class NarrativeTextManager : MonoBehaviour
         }
         else
         {                    
-            choiceButtons[0].GetComponentInChildren<TMP_Text>().text = "End";
+            choiceButtons[0].GetComponentInChildren<TMP_Text>().text = "Конец...";
             choiceButtons[0].onClick.AddListener(EndNarrativeText);
             choiceButtons[0].gameObject.SetActive(true);
 
@@ -109,15 +101,14 @@ public class NarrativeTextManager : MonoBehaviour
 
     private void EndNarrativeText()
     {
-        narrativeTextIndex = 0;
-        isNarrativeTextActive = false;
+        narrativeTextIndex = 0;        
         CleaChoices();
 
         canvasGroup.alpha = 0;
         canvasGroup.interactable = false;
-        canvasGroup.blocksRaycasts = false;
+        canvasGroup.blocksRaycasts = false;        
 
-        lastNarrativeTextEndTime = Time.unscaledTime;
+        menuManager?.gameObject.SetActive(true);
     }
 
     private void CleaChoices()
