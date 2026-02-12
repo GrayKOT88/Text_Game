@@ -35,7 +35,7 @@ MonoBehaviour:
       \u0438 \u0441\u0442\u0443\u043A \u0441\u043E\u0431\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0433\u043E
       \u0441\u0435\u0440\u0434\u0446\u0430."
   options:
-  - optionText: "\u0420\u0430\u0441\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435"
-    nextNarrativeText: {fileID: 11400000, guid: 60e63677d21aeb6468063e4cd971bdcd, type: 2}
   - optionText: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u043F\u0430\u043B\u0443\u0431\u0443"
     nextNarrativeText: {fileID: 11400000, guid: 2cf2c871854da4545bc2ff58d3fb1130, type: 2}
+  - optionText: "\u0420\u0430\u0441\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435"
+    nextNarrativeText: {fileID: 11400000, guid: 60e63677d21aeb6468063e4cd971bdcd, type: 2}

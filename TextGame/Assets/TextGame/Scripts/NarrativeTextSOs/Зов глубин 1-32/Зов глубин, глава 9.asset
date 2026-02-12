@@ -32,8 +32,8 @@ MonoBehaviour:
       \u0432\u0438\u0441\u043A\u0443. \u041F\u0430\u043B\u0435\u0446 \u043B\u043E\u0436\u0438\u0442\u0441\u044F
       \u043D\u0430 \u0441\u043F\u0443\u0441\u043A\u043E\u0432\u043E\u0439 \u043A\u0440\u044E\u0447\u043E\u043A."
   options:
-  - optionText: "\u0412\u044B\u0445\u0432\u0430\u0442\u0438\u0442\u044C \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442"
-    nextNarrativeText: {fileID: 11400000, guid: 5c60bb930f13efb4a82f03b6f1afe4ec, type: 2}
   - optionText: "\u0420\u0435\u0437\u043A\u043E \u043E\u0442\u043F\u0440\u044F\u043D\u0443\u0442\u044C
       \u0438 \u0432\u044B\u0431\u0435\u0436\u0430\u0442\u044C"
     nextNarrativeText: {fileID: 11400000, guid: bf7b59c1e3b72fc429cd53ce0a6df23a, type: 2}
+  - optionText: "\u0412\u044B\u0445\u0432\u0430\u0442\u0438\u0442\u044C \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442"
+    nextNarrativeText: {fileID: 11400000, guid: 5c60bb930f13efb4a82f03b6f1afe4ec, type: 2}

@@ -51,7 +51,7 @@ public class NarrativeTextManager : MonoBehaviour
         if (narrativeTextIndex < currentNarrativeText.lines.Length)
         {
             CleaChoices();
-            choiceButtons[0].GetComponentInChildren<TMP_Text>().text = "-->";
+            choiceButtons[0].GetComponentInChildren<TMP_Text>().text = "=>";
             choiceButtons[0].onClick.AddListener(ShowNarrativeText);
             choiceButtons[0].gameObject.SetActive(true);
 

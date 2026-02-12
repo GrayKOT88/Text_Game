@@ -60,9 +60,9 @@ MonoBehaviour:
   - optionText: "\u041F\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C \u0441
       \u043A\u0430\u043F\u0438\u0442\u0430\u043D\u043E\u043C"
     nextNarrativeText: {fileID: 11400000, guid: 775f77f286b73584fb9df037b975f1f9, type: 2}
-  - optionText: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043D\u0438\u0436\u043D\u0438\u0435
-      \u0442\u0440\u044E\u043C\u044B"
-    nextNarrativeText: {fileID: 11400000, guid: f6eeee384f3b0e94ab12771989f54c4e, type: 2}
   - optionText: "\u041F\u043E\u0434\u043D\u044F\u0442\u044C\u0441\u044F \u043D\u0430
       \u043A\u0430\u043F\u0438\u0442\u0430\u043D\u0441\u043A\u0438\u0439 \u043C\u043E\u0441\u0442\u0438\u043A"
     nextNarrativeText: {fileID: 11400000, guid: df5f6b881fa71a64e92b62919ea8bfb0, type: 2}
+  - optionText: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043D\u0438\u0436\u043D\u0438\u0435
+      \u0442\u0440\u044E\u043C\u044B"
+    nextNarrativeText: {fileID: 11400000, guid: f6eeee384f3b0e94ab12771989f54c4e, type: 2}

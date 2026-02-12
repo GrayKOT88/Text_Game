@@ -37,8 +37,8 @@ MonoBehaviour:
       \u043B\u0435\u0434\u044F\u043D\u043E\u0439 \u044F\u0441\u043D\u043E\u0441\u0442\u044C\u044E:
       \u0432\u044B \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439."
   options:
-  - optionText: "\u0411\u0435\u0436\u0430\u0442\u044C \u043A \u0448\u0442\u0443\u0440\u0432\u0430\u043B\u0443"
-    nextNarrativeText: {fileID: 11400000, guid: 864eea33edc0dd54fba601347c1c0915, type: 2}
   - optionText: "\u041F\u0440\u0438\u043D\u044F\u0442\u044C \u043D\u0435\u0438\u0437\u0431\u0435\u0436\u043D\u0443\u044E
       \u0443\u0447\u0430\u0441\u0442\u044C"
     nextNarrativeText: {fileID: 11400000, guid: f7fd79e1121f2ea4ab236c4debfa7378, type: 2}
+  - optionText: "\u0411\u0435\u0436\u0430\u0442\u044C \u043A \u0448\u0442\u0443\u0440\u0432\u0430\u043B\u0443"
+    nextNarrativeText: {fileID: 11400000, guid: 864eea33edc0dd54fba601347c1c0915, type: 2}
