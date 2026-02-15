@@ -807,6 +807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stories:
   - {fileID: 11400000, guid: 58479a06f6ff57c4cad8b1787b9689fe, type: 2}
+  - {fileID: 11400000, guid: 0d94b0231d992684d951b8aae1aa203c, type: 2}
   storyButtonPrefab: {fileID: 6380543993648388714, guid: 4b2694a2279def54bbd653f5c67f256d, type: 3}
   buttonContainer: {fileID: 532854499}
   narrativeTextManager: {fileID: 1569676504}
